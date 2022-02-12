@@ -1,0 +1,570 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 334397800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "stepDefinitions.DesktopsSteps.retailWebsitePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71997700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Laptop \u0026 NoteBook tab",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 365002400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Show all Laptop \u0026 NoteBook option",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T23:42:54.142Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3891304600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Add and Remove a Mac book from Cart",
+        "description": "",
+        "id": "laptops;add-and-remove-a-mac-book-from-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 4741341600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1173123800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on MacBook item",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_mac_book_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60999700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "stepDefinitions.DesktopsSteps.clickAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647183100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should see a message Success: You have added MacBook to your shopping cart!",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50131000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see \"1 item(s) - $602.00\" showed to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 item(s) - $602.00\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.LaptopsSteps.user_should_see_item_s_$_showed_to_the_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432714900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on cart option",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98997400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on red X button to remove the item from cart",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_red_x_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454394900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Item should be removed and cart should show \"0 item(s) - $0.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 item(s) - $0.00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.LaptopsSteps.item_should_be_removed_and_cart_should_show_item_s_$(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laptops"
+          },
+          {
+            "name": "@macbook"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 257996700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "stepDefinitions.DesktopsSteps.retailWebsitePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105165600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Laptop \u0026 NoteBook tab",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386838000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Show all Laptop \u0026 NoteBook option",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T23:43:06.591Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2889863500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Product Comparison",
+        "description": "",
+        "id": "laptops;product-comparison",
+        "after": [
+          {
+            "result": {
+              "duration": 616792400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66006900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on product comparison icon on MacBook",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_product_comparison_icon_on_mac_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65993000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on product comparison icon on MacBook Air",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_product_comparison_icon_on_mac_book_air()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86743400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should see a message Success: You have added MacBook Air to your product comparison!",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_should_see_a_message_success_you_have_added_mac_book_air_to_your_product_comparison()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 321852100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on Product comparison link",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_product_comparison_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206186600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should see Product Comparison Chart",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_should_see_product_comparison_chart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laptops"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 284966100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "stepDefinitions.DesktopsSteps.retailWebsitePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67807400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Laptop \u0026 NoteBook tab",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 392190200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Show all Laptop \u0026 NoteBook option",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T23:43:11.606Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3010021600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Adding an item to Wish list",
+        "description": "",
+        "id": "laptops;adding-an-item-to-wish-list",
+        "after": [
+          {
+            "result": {
+              "duration": 624650500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66996700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on heart icon to add Sony VaIO laptop to wish list",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521430000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should get a message You must login or create an account to save Sony VAIO to your wish list!",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_should_get_a_message_you_must_login_or_create_an_account_to_save_sony_vaio_to_your_wish_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laptops"
+          },
+          {
+            "name": "@wishlist"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 302817500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "stepDefinitions.DesktopsSteps.retailWebsitePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62340600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Laptop \u0026 NoteBook tab",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451987000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Show all Laptop \u0026 NoteBook option",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T23:43:16.595Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2832811300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validate the price of MacBook Pro is 2000",
+        "description": "",
+        "id": "laptops;validate-the-price-of-macbook-pro-is-2000",
+        "after": [
+          {
+            "result": {
+              "duration": 694258400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1167709000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on MacBook Pro item",
+            "match": {
+              "location": "stepDefinitions.LaptopsSteps.user_click_on_mac_book_pro_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 336406200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should see \"$2,000.00\" price tag is present on UI.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$2,000.00\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.LaptopsSteps.user_should_see_$_price_tag_is_present_on_ui(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laptops"
+          }
+        ]
+      }
+    ],
+    "name": "Laptops",
+    "description": "",
+    "id": "laptops",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/laptops.feature",
+    "tags": [
+      {
+        "name": "@laptops",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

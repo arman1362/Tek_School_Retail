@@ -1,0 +1,13 @@
+utilities\UtilitiesCapstone.class
+pageObjects\DesktopsPageObjects.class
+core\BaseCapstone.class
+pageObjects\MP3PlayersPageObjects.class
+pageObjects\LaptopsPageObjects.class
+pageObjects\CamerasPageObjects.class
+pageObjects\RetailPageObjects.class
+pageObjects\PhonesAndPDAsPageObjects.class
+pageObjects\TabletsPageObjects.class
+pageObjects\HomePageObjects.class
+pageObjects\SoftwarePageObjects.class
+pageObjects\ComponentsPageObjects.class
+utilities\CucumberReportingConfig.class

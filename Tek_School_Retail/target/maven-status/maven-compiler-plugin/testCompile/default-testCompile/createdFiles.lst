@@ -1,0 +1,6 @@
+runner\Runner.class
+stepDefinitions\Initializer.class
+stepDefinitions\DesktopsSteps.class
+stepDefinitions\RetailPage.class
+stepDefinitions\LaptopsSteps.class
+stepDefinitions\HomePage.class
